@@ -18,7 +18,7 @@ import R from 'ramda';
         });
         return(
             <Link
-                to={`/categories/${category.id}`}
+                to={`/ecommercereactredux/categories/${category.id}`}
                 className={linkClass}
                 key={index}
             >
@@ -35,7 +35,7 @@ import R from 'ramda';
 
         return (
             <Link
-                to="/"
+                to="/ecommercereactredux"
                 className={linkClass}
             >
             All

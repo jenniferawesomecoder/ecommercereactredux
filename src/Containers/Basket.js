@@ -24,7 +24,7 @@ const Basket = ({phones,totalPrice,
                                     <td className="first-column-checkout">
                                         <img className="img-thumbnail"
                                             src={phone.image}
-                                            alt={phone.name}  
+                                            alt={phone.name}
                                         />
                                     </td>
                                     <td>{phone.name}</td>
@@ -54,10 +54,10 @@ const Basket = ({phones,totalPrice,
 
         const renderSidebar = ()=>{
             return(
-                <div>   
+                <div>
                     <Link
                         className="btn btn-info"
-                        to="/"
+                        to="/ecommercereactredux"
                     >
                     <span className="glyphicon glyphicon-info-sign"/>
                     <span> Continue Shopping</span>
@@ -66,7 +66,7 @@ const Basket = ({phones,totalPrice,
                         R.not(isBasketEmpty) &&
                         <div>
                             <button className="btn btn-danger"
-                                    onClick={()=>cleanBasket()}        
+                                    onClick={()=>cleanBasket()}
                             >
                             <span className="glyphicon glyphicon-trash"/>
                             Clean Cart

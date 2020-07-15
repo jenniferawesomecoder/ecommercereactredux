@@ -37,7 +37,7 @@ class Phone extends React.Component{
                     </div>
                 </div>
             );
-           
+
         });
     };
 
@@ -73,7 +73,7 @@ class Phone extends React.Component{
     };
 
     renderSideBar = ()=>{
-        
+
         const {phone,addPhoneToBasket} = this.props;
         return(
             <div>
@@ -85,7 +85,7 @@ class Phone extends React.Component{
                         <h2>{phone.price}</h2>
                     </div>
                </div>
-               <Link to="/"
+               <Link to="/ecommercereactredux"
                     className="btn btn-info btn-block">
                     Back to Store
                 </Link>

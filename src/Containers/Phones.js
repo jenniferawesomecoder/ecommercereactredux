@@ -29,7 +29,7 @@ class Phones extends React.Component{
                         ${phone.price}
                     </h4>
                     <h4>
-                        <Link to={`./Phones/${phone.id}`}>
+                        <Link to={`/ecommercereactredux/Phones/${phone.id}`}>
                             {phone.name}
                         </Link>
                     </h4>
@@ -39,7 +39,7 @@ class Phones extends React.Component{
                                 onClick={()=>addPhoneToBasket(phone.id)}>
                             Buy Now
                         </button>
-                        <Link to={`/Phones/${phone.id}`}
+                        <Link to={`/ecommercereactredux/Phones/${phone.id}`}
                             className="btn btn-default">
                             More Info
                         </Link>
@@ -67,8 +67,8 @@ class Phones extends React.Component{
                 </div>
 
             </div>
-        </div>            
-       
+        </div>
+
         )};
 };
 

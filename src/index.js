@@ -16,12 +16,12 @@ const jsx = (
     <Provider store={store}>
        <Router history={history}>
             <Route component={Layout}>
-                <Route path='/' component={Phones}></Route>
-                <Route path='/categories/:id' component={Phones} />
+                <Route path='/ecommercereactredux' component={Phones}></Route>
+                <Route path='/ecommercereactredux/categories/:id' component={Phones} />
             </Route>
-            <Route path="/Phones/:id" component={Phone} />
-            <Route path="/basket" component={Basket} />
-            
+            <Route path="/ecommercereactredux/Phones/:id" component={Phone} />
+            <Route path="/ecommercereactredux/basket" component={Basket} />
+
        </Router>
     </Provider>
 );
@@ -30,4 +30,3 @@ const jsx = (
 
 
 ReactDOM.render(jsx,document.getElementById('root'));
-

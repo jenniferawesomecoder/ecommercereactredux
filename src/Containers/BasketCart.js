@@ -9,8 +9,8 @@ export const BasketCart = (props)=>{
     return(
         <div className="cart">
             <div className="dropdown">
-                <Link 
-                    to="/basket"
+                <Link
+                    to="/ecommercereactredux/basket"
                     id="dLabel"
                     className="btn btn-inverse btn-block btn-large"
                 >
