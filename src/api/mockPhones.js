@@ -35,7 +35,7 @@ export default [
       name: "Lenovo A6000",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies lorem odio, at laoreet tellus sodales in. Nullam maximus eros ut tortor ultricies rutrum. Aliquam euismod lacus non est egesta",
       price: 764,
-      image: "/ecommercereactredux/uploads/_35%20(1).JPG",
+      image: "/ecommercereactredux/uploads/lenovo.jpg",
       cpu: "1.3GHz Apple A6",
       camera: "8mp (3264x2448)",
       size: "124.4mm x 59.2mm x 8.97mm (4.9 x 2.33 x 0.35)",
