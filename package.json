@@ -2,7 +2,7 @@
   "name": "shopoholic",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.io/GBspace/React-Redux-E-Commerce",
+  "homepage": "https://jenniferawesomecoder.github.io/ecommercereactredux/",
   "dependencies": {
     "classnames": "^2.2.5",
     "ramda": "^0.23.0",
@@ -24,6 +24,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
